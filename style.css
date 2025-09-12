@@ -34,10 +34,25 @@ main {
     /*margin-top: 200px; abaixa para header nao ficar em cima (logo fixa)*/
 }
 
-@media(max-width: 800px) {
-    main {
-        width: 45rem;
-    }
+@media (max-width: 1200px) {
+  main {
+    width: 45rem;
+  }
+}
+@media (max-width: 992px) {
+  main {
+    width: 38rem;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    width: 90%; /* usa porcentagem para não ficar apertado */
+  }
+}
+@media (max-width: 480px) {
+  main {
+    width: 95%;
+  }
 }
 
 header {
