@@ -3,7 +3,7 @@
   "short_name": "Delirium",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#926daa",
+  "background_color": "#353535",
   "theme_color": "#926daa", 
   "description": "Site Edutainment sobre ARGs",
   "icons": [

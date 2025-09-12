@@ -169,11 +169,11 @@ div.flor1 p{
 .btn-install {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 35px;
     height: 50px;
-    padding: 25px 55px;
-    background: #fce4ff;
-    color: #353535;
+    padding: 25px 50px;
+    background: var(--cor2);
+    color: var(--black);
     border: none;
     outline: none;
     border-radius: 5px;
