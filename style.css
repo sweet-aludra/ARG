@@ -13,17 +13,15 @@
 }
 
 body {
-    /*background: linear-gradient(to bottom, var(--cor1), var(--withe), var(--withe), var(--withe));*/
     background-image: url(imgs/fundobb.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: var(--black);
 }
 
 main {
-    /*background: linear-gradient(to bottom, var(--cor1), var(--withe), var(--withe), var(--withe));*/
     background-color: var(--withe);
-    margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -32,7 +30,6 @@ main {
     align-items: center;
     width: 55rem;
     height: auto;
-    /*margin-top: 200px; abaixa para header nao ficar em cima (logo fixa)*/
 }
 
 header {
@@ -40,35 +37,11 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    /*position: fixed;
-    background-color: var(--withe);
-    width: 52.5rem;
-    left: 50%;
-    top: 90px;
-    transform: translate(-50%, -50%);
-     Parte da logo fixa na pagina */
 }
 
 header img {
     width: 250px;
     height: 200px;
-}
-
-@media (max-width: 1200px) {
-  main {
-    width: 40rem;
-  }
-
-  header img {
-    width: 200px;
-    height: 150px;
-  }
-}
-@media (max-width: 600px) {
-  main {
-    width: 30rem;
-    font-size: 15px;
-  }
 }
 
 section {
@@ -124,6 +97,26 @@ button {
 button:hover {
     background-color: var(--cor1);
     border: 2px solid var(--cor3);
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 40rem;
+  }
+
+  header img {
+    width: 200px;
+    height: 150px;
+  }
+
+  article {
+    font-size: 20px;
+  }
+
+  input {
+    width: 200px;
+    margin-left: 20px;
+  }
 }
 
 /* ~~~~~~~~~~ configurando as imgs das flores espalhadas pelo site ~~~~~~~~~*/
