@@ -1,13 +1,12 @@
-const CACHE_NAME = 'ARG-delirium-v3';
+const CACHE_NAME = 'ARG-delirium-v4';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/imgs/delirium.png',
-  '/imgs/lirio_do_vale.png',
-  '/imgs/daisy.png',
-  '/imgs/beladona.png',
-  '/imgs/pixel.png'
+  'index.html',
+  'style.css',
+  'imgs/delirium.png',
+  'imgs/lirio_do_vale.png',
+  'imgs/daisy.png',
+  'imgs/beladona.png',
+  'imgs/pixel.png'
 ];
 
 // Instala e guarda no cache

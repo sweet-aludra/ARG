@@ -1,19 +1,19 @@
 {
   "name": "ARG Delirium",
   "short_name": "Delirium",
-  "start_url": "./",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#926daa",
   "theme_color": "#008040",
   "description": "Site Edutainment sobre ARGs",
   "icons": [
     {
-      "src": "/imgs/pixel_p.png",
+      "src": "imgs/pixel_p.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/imgs/pixel_m.png",
+      "src": "imgs/pixel_m.png",
       "sizes": "512x512",
       "type": "image/png"
     }
