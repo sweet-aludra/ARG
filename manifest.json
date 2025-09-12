@@ -1,7 +1,7 @@
 {
   "name": "ARG Delirium",
   "short_name": "Delirium",
-  "start_url": "./",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#926daa",
   "theme_color": "#008040",
