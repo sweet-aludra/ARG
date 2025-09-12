@@ -34,17 +34,6 @@ main {
     /*margin-top: 200px; abaixa para header nao ficar em cima (logo fixa)*/
 }
 
-@media (max-width: 1200px) {
-  main {
-    width: 45rem;
-  }
-}
-@media (max-width: 992px) {
-  main {
-    width: 30rem;
-  }
-}
-
 header {
     display: flex;
     align-items: center;
@@ -64,10 +53,21 @@ header img {
     height: 200px;
 }
 
-/*header button {
-    border: none;
-    background-color: transparent;
-} botao para mudar o tema*/
+@media (max-width: 1200px) {
+  main {
+    width: 40rem;
+  }
+
+  header img {
+    width: 200px;
+    height: 150px;
+  }
+}
+@media (max-width: 600px) {
+  main {
+    width: 30rem;
+  }
+}
 
 section {
     display: flex;
@@ -181,6 +181,7 @@ div.flor1 p{
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: background 0.3s ease;
+    contain: 'instale';
 }
 
 .btn-install:hover {
