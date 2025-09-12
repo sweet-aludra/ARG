@@ -1,0 +1,161 @@
+:root {
+    --cor1: #926daa;
+    --cor2: #fce4ff;
+    --cor3: #713497;
+    --cor4: #008040;
+    --cor5: #004000;
+    --withe: #f1ffe7;
+    --black: #353535;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    /*background: linear-gradient(to bottom, var(--cor1), var(--withe), var(--withe), var(--withe));*/
+    background-image: url(imgs/fundobb.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+main {
+    /*background: linear-gradient(to bottom, var(--cor1), var(--withe), var(--withe), var(--withe));*/
+    background-color: var(--withe);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 55rem;
+    height: auto;
+    /*margin-top: 200px; abaixa para header nao ficar em cima (logo fixa)*/
+}
+
+@media(max-width: 800px) {
+    main {
+        width: 45rem;
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /*position: fixed;
+    background-color: var(--withe);
+    width: 52.5rem;
+    left: 50%;
+    top: 90px;
+    transform: translate(-50%, -50%);
+     Parte da logo fixa na pagina */
+}
+
+header img {
+    width: 250px;
+    height: 200px;
+}
+
+/*header button {
+    border: none;
+    background-color: transparent;
+} botao para mudar o tema*/
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+article {
+    font-size: 30px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    /* titulos no centro */
+}
+
+p {
+    text-align: start;
+    padding: 0 100px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    padding: 0 10px;
+    margin-left: 200px;
+    color: var(--black);
+    border-bottom: 3px solid var(--black);
+}
+
+input:hover {
+    border-bottom: 3px solid var(--cor1);
+}
+
+button {
+    background-color: var(--black);
+    border-radius: 5px;
+    outline: none;
+    color: var(--withe);
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor1);
+    border: 2px solid var(--cor3);
+}
+
+/* ~~~~~~~~~~ configurando as imgs das flores espalhadas pelo site ~~~~~~~~~*/
+div.flor{ /* para flores que ficam a direita */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div.flor img{
+    width: 200px;
+    height: 200px;
+    margin-right: 55px;
+    filter: drop-shadow(-4px 5px 0 var(--cor1));
+}
+div.flor p{
+    padding: 0 30px;
+}
+
+div.flor1{ /* para flores que ficam a esquerda */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div.flor1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 55px;
+    filter: drop-shadow(-4px 5px 0 var(--cor1));
+}
+div.flor1 p{
+    padding: 0 20px;
+}
+/* ~~~~~ alinhando ao centro os textos de inicio e fim ~~~~~~~~*/
+#secao_inicial p {
+    text-align: center;
+}
+
+#secao_final p {
+    text-align: center;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#008040">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Delirium</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div>
+                <img src="imgs/delirium.png" alt="logo delirium">
+            </div>
+            <!-- <button>Mudar tema</button> botao alternar tema-->
+        </header>
+        <section id="secao_inicial">
+            <article>
+                <h2>Bem-vindo!</h2><br>
+                <p>
+                    ARGs (Alternate Reality Game) estimulam a curiosidade, a investigação e a colaboração. Jogar um ARG
+                    é como
+                    ser parte de um filme ou livro, mas em que o jogador ajuda a decidir o rumo da narrativa. É uma
+                    experiência
+                    que mistura jogo, arte, narrativa e comunidade de um jeito único.
+                </p>
+                <p>
+                    Por meio de atividades interativas, enigmas instigantes e narrativas envolventes, você será
+                    convidado a
+                    desvendar segredos, resolver mistérios e descobrir como a ficção pode se misturar com a realidade.
+                </p><br><hr><br>
+
+                <div class="flor">
+                    <div>
+                        <h3>Dicas:</h3><br>
+                        <p>&#9830; Cada desafio tem uma palavra correta para avançar.</p>
+                        <p>&#9830; Nem todos os desafios estão escondidos em somente uma pagina...</p>
+                    </div>
+                    
+                    <img src="imgs/lirio_do_vale.png" alt="lirio do vale">
+                </div>
+                <br><hr><br>
+            </article>
+            <button onclick="mostrarSecao('secao1')">Começar</button>
+        </section>
+
+        <section id="secao1" style="display:none;">
+            <article id="texto1">
+                <h2>1Etapa-Defina a narrativa</h2><br>
+                <p>Toda experiência começa com uma boa história. Pode ser um mistério a ser resolvido, uma conspiração oculta ou até uma jornada poética. 
+                    O importante é que exista um fio condutor que conecte todos os desafios.</p><br><hr><br>
+                
+                <h2>Quando vier a primavera</h2><br>
+                <div class="flor1">
+                    <img src="imgs/daisy.png" alt="daisy">
+                    <div><p>muitas vezes nas historias, ah enigmas escondidos dentros dos textos e por isso e sempre bom se
+                    manter atento aos detalhes.
+                    alguns aparecem com letras soltas em maiusculo, como letras destacadas que precisam ser unificadas
+                    para
+                    formar algo novo e assim levando a historia para outros caminhos.</p></div>
+                </div>
+                <br><hr><br>
+
+                <p>Quando vier a primavera,<br>
+                    Se eu já estiver morto,<br>
+                    As flor<strong>e</strong>s florirão da mesma maneira<br>
+                    E as árvores não serão menos verdes que na primavera passada.<br>
+                    A rea<strong>l</strong>idade não precis<strong>a</strong> de mim.<br>
+                    <br>
+                    Sinto uma alegria enorme<br>
+                    Ao pensar que a minha morte não tem importância nenhuma.<br>
+                    <br>
+                    [...]
+                    <br><br>
+                    Po<strong>d</strong>em rezar latim sobre <strong>o</strong> meu caixão, se quiserem.<br>
+                    Se quiserem, podem da<strong>n</strong>çar e cantar à roda dele.<br>
+                    Não tenho preferências para quando já não puder ter preferências.<br>
+                    O que for, qu<strong>a</strong>ndo for, é que será o que é.<br>
+                    <br><br>
+                    CAEIRO, Al<strong>b</strong>erto, Poesia (Poemas Inconjuntos), ed. Fernando Cabral Martins, Richard Zenith. Lisboa:
+                    Assírio & Alvim, 2001, p. 109
+                </p><br><hr><br>
+            </article>
+            <input type="text" id="entrada1" placeholder="..">
+            <button onclick="verificar(1, 'beladona')">Enviar</button>
+        </section>
+
+        <section id="secao2" style="display:none;">
+            <article>
+                <h2>2Etapa-Crie os enigmas</h2><br>
+                <div class="flor">
+                    <div><p>Os enigmas são o coração do ARG. Eles podem aparecer em textos,
+                     imagens, sites escondidos, áudios ou até mensagens codificadas.
+                    Use recursos como: (Códigos e cifras, Pistas visuais e Referências externas (dicionários, músicas, flores, obras literárias)).</p></div>
+                    <img src="imgs/beladona.png" alt="beladona">
+                </div>
+                <br><hr><br>
+
+                <h2>Sutilezas</h2><br>
+                <p>
+                    Aprender a enxergar o que está além do óbvio é o que transforma curiosidade em descoberta.
+                    <br>Quem passa sem reparar, pode nem notar sua presença; mas quem observa com cuidado, consegue perceber os detalhes sutis que revelam sua beleza. Talvez, assim como na história, as pistas mais importantes estejam justamente onde quase ninguém olha.
+                </p></p><br><hr><br>
+
+                <p>
+                    Às vezes a história parece se perder no ar, como folhas levadas pelo vento, mas basta olhar com atenção ao redor para encontrar o caminho escondido até o jardim. Não é sobre ver tudo de primeira; é sobre notar os detalhes que passam despercebidos, aquelas pequenas pistas que se escondem nas sombras, nos cantos e até no silêncio. Quem presta atenção de verdade acaba descobrindo segredos que parecem invisíveis.
+                </p><p style="color: #f1ffe7; font-size: 20px;">cerúlea, lustrosa, acetinada, imaculada, solene, recatada, <strong>dalia</strong>, côncava, orvalhada, perene, silenciosa, nacarada, etérea.</p><hr><br>
+            </article>
+            <input type="text" id="entrada2" placeholder="..">
+            <button onclick="verificar(2, 'dalia')">Enviar</button>
+        </section>
+
+        <section id="secao3" style="display:none;">
+            <article>
+                <h2>3Etapa-Use múltiplas plataformas</h2><br>
+                <p>Um ARG vive em diferentes espaços: páginas web, redes sociais, documentos e até interações presenciais.</p><br><hr><br>
+
+                <h2>Deslocamento 3</h2><br>
+                <p>O texto cifrado continua sendo o mesmo texto, só que atravessado por um véu. A verdade não desaparece, apenas muda de lugar, esperando ser encontrada. Assim também são as ideias, os símbolos, as memórias: elas existem, mas muitas vezes não no ponto em que esperamos vê-las.</p><br><hr><br>
+                
+                <p>No silêncio da floresta sombria,<br>
+                um perfume leve anuncia a aurora.<br>
+                Pequenos sinos escondidos na sombra<br>
+                sussurram segredos a quem ousa escutar.<br><br>
+
+                Branco como a memória do vento,<br>
+                delicado como um segredo guardado,<br>
+                cresce onde a luz quase não chega,<br>
+                mas nunca deixa de florescer.<br><br>
+
+                Não grita sua beleza, apenas espera.<br>
+                Quem olhar com atenção o encontrará,<br>
+                curvado em humildade,<br>
+                mas eterno em pureza.</p><br><hr><br>
+                
+                <div class="flor1">
+                    <div>
+                        <p>Gh vhx fdxoh ilqr h dutxhdgr, shqghp shtxhqdv ioruhv hp irupd gh vlqrv eudqfrv, gholfdgrv h shuixpdgrv,
+                     vhpsuh glvsrvwrv hp ilod, frpr frqwdv gh xp urváulr qdwxudo.</p>
+                    </div>
+                    <img src="#" alt="">
+                </div>
+                <br><hr><br>
+            </article><br>
+            <input type="text" id="entrada3" placeholder="..">
+            <button onclick="verificar(3, 'lirio do vale')">Enviar</button>
+        </section>
+
+        <section id="secao4" style="display:none;">
+            <article>
+                <h2>4Etapa-Promova a colaboração</h2><br>
+                <p>Os ARGs são feitos para que jogadores troquem ideias, compartilhem descobertas e avancem juntos. Pense em enigmas que incentivem a cooperação.</p><br><hr><br>
+
+                <h2>Flora</h2><br>
+                <p>As palavras sempre buscaram nomear o mundo, como se cada som pudesse aprisionar um pedaço do mistério. Algumas descrevem sentimentos raros: logofilia, o amor por palavras, como se nelas repousasse a alma de quem fala; semântica, a busca pelos significados que dançam por trás de cada letra; etimologia, o fio que nos conduz ao nascimento de um termo, como uma raiz invisível. Outras palavras pertencem ao reino das flores: antofilia,
+                 o fascínio por suas formas delicadas, por pétalas. Entre descrições e nomes, descobrimos que a linguagem não é apenas uma ferramenta, mas um espelho: cada definição revela tanto o objeto quanto o olhar de quem o descreve.
+                 <p style="color: #f1ffe7; font-size: 20px;">dandelion, violet, daisy, marigold.</p></p><hr><br>
+                
+                <p id="definicao">Carregando enigma...</p><br><hr><br>
+            </article><br>
+            <input type="text" id="entrada4" placeholder="..">
+            <button onclick="verificar(4, palavraCorreta)">Enviar</button>
+        </section>
+
+        <section id="secao5" style="display:none;">
+            <article>
+                <h2>5Etapa-Construa a imersão</h2><br>
+                <p>Textos escritos de forma verossímil, sites falsos que parecem reais, mensagens enigmáticas enviadas no momento certo, tudo contribui para a ilusão.</p><br><hr><br>
+
+                <h2>Último Desafio</h2><br>
+                <p>Digite a última palavra para concluir a jornada. final</p>
+            </article><br>
+            <input type="text" id="entrada5" placeholder="..">
+            <button onclick="verificar(5, 'camelia')">Enviar</button>
+        </section>
+
+        <section id="secao_final" style="display:none;">
+            <article>
+                <h2>Fim da Jornada!</h2><br>
+                <p>Um ARG é mais do que um jogo: é uma narrativa viva que se espalha por diferentes meios, misturando realidade e ficção. Para criar o seu, pense em três pilares principais: história, enigmas e imersão.</p>
+            </article><br>
+            <button onclick="mostrarSecao('secao_inicial')">Voltar ao Início</button>
+        </section>
+
+        <script src="index.js">
+           let palavraCorreta = "";
+
+            // Mostra apenas a seção selecionada
+            function mostrarSecao(id) {
+                document.querySelectorAll("section").forEach(sec => sec.style.display = "none");
+                document.getElementById(id).style.display = "block";
+
+                // Se for o desafio final com API, carrega enigma
+                if (id === "secao4") {
+                    carregarEnigma();
+                }
+            }
+
+            // Verifica se a palavra digitada está correta
+            function verificar(n, respostaEsperada) {
+                const entrada = document.getElementById("entrada" + n).value.trim().toLowerCase();
+
+                if (entrada === respostaEsperada.toLowerCase()) {
+                    if (n === 5) { // Último desafio
+                        mostrarSecao("secao_final");
+                    } else {
+                        mostrarSecao("secao" + (n + 1));
+                    }
+                } else {
+                    alert("Palavra incorreta, tente novamente!");
+                }
+            }
+
+            // Função do enigma API (secao4)
+            async function carregarEnigma() {
+                const flores = ["dandelion", "violet", "daisy", "marigold"];
+                const escolhida = flores[Math.floor(Math.random() * flores.length)];
+                palavraCorreta = escolhida;
+
+                try {
+                    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${escolhida}`);
+                    const data = await res.json();
+                    const definicao = data[0].meanings[0].definitions[0].definition;
+                    document.getElementById("definicao").innerText = definicao;
+                } catch (err) {
+                    document.getElementById("definicao").innerText = "Erro ao carregar o enigma.";
+                    console.error(err);
+                }
+            }
+
+        </script>
+
+</body>
+
+</html>
