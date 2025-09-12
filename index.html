@@ -233,11 +233,11 @@
             }
 
             // pwa
-            if ('serviceWorker' in navigator) {
+            if ('serviceWorker' in navigator) { 
                 navigator.serviceWorker.register('service-worker.js')
                 .then(() => console.log('✅ Service Worker registrado!'))
                 .catch(err => console.error('❌ Erro no registro do Service Worker:', err));
-            }
+            }//verifica no devtools se o service woker(offline) esta funcionando
 
             // Instalação PWA
             let deferredPrompt;
@@ -247,15 +247,15 @@
 
                 // cria botão dinamicamente
                 const btnInstall = document.createElement('button');
-                btnInstall.innerText = '📲 Instalar App';
+                btnInstall.innerText = '>> 🪻Instalar App <<';
                 btnInstall.style.position = 'fixed';
                 btnInstall.style.bottom = '20px';
                 btnInstall.style.right = '20px';
                 btnInstall.style.padding = '10px 20px';
-                btnInstall.style.background = '#008040';
-                btnInstall.style.color = '#fff';
+                btnInstall.style.background = '#fce4ff';
+                btnInstall.style.color = '#0000';
                 btnInstall.style.border = 'none';
-                btnInstall.style.borderRadius = '8px';
+                btnInstall.style.borderRadius = '5px';
                 btnInstall.style.cursor = 'pointer';
 
                 document.body.appendChild(btnInstall);
