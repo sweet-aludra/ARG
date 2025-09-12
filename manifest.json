@@ -4,7 +4,7 @@
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#926daa",
-  "theme_color": "#008040",
+  "theme_color": "#926daa", 
   "description": "Site Edutainment sobre ARGs",
   "icons": [
     {
