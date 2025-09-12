@@ -41,17 +41,7 @@ main {
 }
 @media (max-width: 992px) {
   main {
-    width: 38rem;
-  }
-}
-@media (max-width: 768px) {
-  main {
-    width: 90%; /* usa porcentagem para não ficar apertado */
-  }
-}
-@media (max-width: 480px) {
-  main {
-    width: 95%;
+    width: 30rem;
   }
 }
 
