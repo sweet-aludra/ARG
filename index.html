@@ -248,16 +248,9 @@
                 // cria botão dinamicamente
                 const btnInstall = document.createElement('button');
                 btnInstall.innerText = '🪻Instalar App';
-                btnInstall.style.position = 'fixed';
-                btnInstall.style.bottom = '20px';
-                btnInstall.style.right = '20px';
-                btnInstall.style.height = '200px';
-                btnInstall.style.padding = '25px 55px';
-                btnInstall.style.background = '#fce4ff';
-                btnInstall.style.color = '#353535';
-                btnInstall.style.border = 'none';
-                btnInstall.style.borderRadius = '5px';
-                btnInstall.style.cursor = 'pointer';
+
+                // adiciona uma classe em vez de inline styles
+                btnInstall.classList.add('btn-install');
 
                 document.body.appendChild(btnInstall);
 

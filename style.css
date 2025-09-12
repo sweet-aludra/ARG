@@ -159,3 +159,25 @@ div.flor1 p{
 #secao_final p {
     text-align: center;
 }
+
+/*~~~~~~~~~~ configuraçao do botao para instalaçao do app ~~~~~~~*/
+.btn-install {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 200px;
+    padding: 25px 55px;
+    background: #fce4ff;
+    color: #353535;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* você pode ajustar */
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s ease;
+}
+
+.btn-install:hover {
+    background: #f9caff;
+}
