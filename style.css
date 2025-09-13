@@ -67,6 +67,12 @@ p {
     padding: 0 100px;
 }
 
+.campo_resposta {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
 input {
     outline: none;
     border: none;
@@ -75,7 +81,6 @@ input {
     height: 25px;
     font-size: 20px;
     padding: 0 10px;
-    margin-left: 200px;
     color: var(--black);
     border-bottom: 3px solid var(--black);
 }
@@ -85,6 +90,9 @@ input:hover {
 }
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--black);
     border-radius: 5px;
     outline: none;
@@ -98,10 +106,59 @@ button:hover {
     background-color: var(--cor1);
     border: 2px solid var(--cor3);
 }
+button.btn_inicio_fim {
+    width: 250px;
+    height: 45px;
+    font-size: 20px;
+}
 
-@media (max-width: 800px) {
+/* ~~~~~~~~~~ configurando as imgs das flores espalhadas pelo site ~~~~~~~~~*/
+div.flor{ /* para flores que ficam a direita */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div.flor img{
+    width: 200px;
+    height: 200px;
+    margin: 35px;
+    filter: drop-shadow(-4px 5px 0 var(--cor1));
+}
+div.flor p{
+    padding: 0 35px;
+}
+
+/* ~~~~~ alinhando ao centro os textos de inicio e fim ~~~~~~~~*/
+#secao_inicial p {
+    text-align: center;
+}
+
+#secao_final p {
+    text-align: center;
+}
+
+/*~~~~~~~~~~~*/
+@media (max-width: 1200px) {
   main {
-    width: 40rem;
+    width: 45rem;
+  }
+}
+@media (max-width: 992px) {
+  main {
+    width: 38rem;
+  }
+
+  article {
+    font-size: 25px;
+  }
+  p {
+    padding: 0px 35px;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    width: 90%; /* usa porcentagem para não ficar apertado */
   }
 
   header img {
@@ -115,49 +172,30 @@ button:hover {
 
   input {
     width: 200px;
-    margin-left: 20px;
+  }
+
+  div.flor {
+    display: flex;
+    flex-direction: column;
+  }
+  div.flor img{
+    margin: 0px;
+  }
+
+  button.btn_inicio_fim {
+    width: 130px;
+    height: 35px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    width: 95%;
   }
 }
 
-/* ~~~~~~~~~~ configurando as imgs das flores espalhadas pelo site ~~~~~~~~~*/
-div.flor{ /* para flores que ficam a direita */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-div.flor img{
-    width: 200px;
-    height: 200px;
-    margin-right: 55px;
-    filter: drop-shadow(-4px 5px 0 var(--cor1));
-}
-div.flor p{
-    padding: 0 30px;
-}
-
-div.flor1{ /* para flores que ficam a esquerda */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-div.flor1 img{
-    width: 200px;
-    height: 200px;
-    margin-left: 55px;
-    filter: drop-shadow(-4px 5px 0 var(--cor1));
-}
-div.flor1 p{
-    padding: 0 20px;
-}
-/* ~~~~~ alinhando ao centro os textos de inicio e fim ~~~~~~~~*/
-#secao_inicial p {
-    text-align: center;
-}
-
-#secao_final p {
-    text-align: center;
+.hidden {
+  display: none !important;
 }
 
 /*~~~~~~~~~~ configuraçao do botao para instalaçao do app ~~~~~~~*/
