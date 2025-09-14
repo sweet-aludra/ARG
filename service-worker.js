@@ -1,4 +1,4 @@
-const CACHE_NAME = 'delirium-v5';
+const CACHE_NAME = 'delirium-v6';
 const urlsToCache = [
   'index.html',
   'style.css',
