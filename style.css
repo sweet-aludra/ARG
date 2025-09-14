@@ -201,23 +201,24 @@ div.flor p{
 /*~~~~~~~~~~ configuraçao do botao para instalaçao do app ~~~~~~~*/
 .btn-install {
     position: fixed;
-    bottom: 200px;
+    bottom: 35rem;
     right: 35px;
     height: 40px;
-    padding: 20px;
+    width: 200px;
+    padding: 10px;
     background: var(--cor2);
     color: var(--black);
     border: none;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px; /* você pode ajustar */
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     box-shadow: -5px 4px 1px rgba(0,0,0,0.2);
     transition: background 0.3s ease;
 }
 
-.btn-install:hover {
+.btn-install:active {
     background: #f9caff;
 }
