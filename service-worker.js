@@ -1,4 +1,4 @@
-const CACHE_NAME = 'delirium-v6';
+const CACHE_NAME = 'delirium-v7';
 const urlsToCache = [
   'index.html',
   'style.css',
@@ -6,7 +6,12 @@ const urlsToCache = [
   'imgs/lirio_do_vale.png',
   'imgs/daisy.png',
   'imgs/beladona.png',
-  'imgs/pixel.png'
+  'imgs/camelia.png',
+  'imgs/dalia.png',
+  'imgs/marigold.png',
+  'imgs/violet.png',
+  'imgs/pixel_p.png',
+  'imgs/pixel_m.png'
 ];
 
 // Instala e guarda no cache

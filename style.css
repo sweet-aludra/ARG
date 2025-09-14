@@ -201,9 +201,6 @@ div.flor p{
 
 /*~~~~~~~~~~ configuraçao do botao para instalaçao do app ~~~~~~~*/
 .btn-install {
-    position: fixed;
-    bottom: 40rem;
-    right: 35px;
     height: 40px;
     width: 200px;
     padding: 10px;
@@ -222,4 +219,8 @@ div.flor p{
 
 .btn-install:active {
     background: #f9caff;
+}
+
+.hidden_btn {
+  display: none;
 }
