@@ -10,8 +10,8 @@ const urlsToCache = [
   'imgs/dalia-l.png',
   'imgs/marigold-e.png',
   'imgs/violet-ia.png',
-  'imgs/icon_libelula_p.png',
-  'imgs/icon_libelula_m.png',
+  'imgs/pixel_p.png',
+  'imgs/pixel_m.png',
   'imgs/icon_libelula.png'
 ];
 
