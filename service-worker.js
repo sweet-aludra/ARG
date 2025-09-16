@@ -1,15 +1,15 @@
-const CACHE_NAME = 'delirium-v10';
+const CACHE_NAME = 'ARG-delirium-v1';
 const urlsToCache = [
   'index.html',
   'style.css',
   'imgs/logo_libelula.png',
-  'imgs/lirio_do_vale.png',
-  'imgs/daisy.png',
-  'imgs/beladona.png',
+  'imgs/lirio_do_vale-c.png',
+  'imgs/daisy-a.png',
+  'imgs/beladona-m.png',
   'imgs/camelia.png',
-  'imgs/dalia.png',
-  'imgs/marigold.png',
-  'imgs/violet.png',
+  'imgs/dalia-l.png',
+  'imgs/marigold-e.png',
+  'imgs/violet-ia.png',
   'imgs/icon_libelula_p.png',
   'imgs/icon_libelula_m.png',
   'imgs/icon_libelula.png'
