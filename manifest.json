@@ -9,12 +9,12 @@
   "icons": [
     {
       "src": "imgs/icon_libelula_p.png",
-      "sizes": "192x192",
+      "sizes": "192x142",
       "type": "image/png"
     },
     {
       "src": "imgs/icon_libelula_m.png",
-      "sizes": "512x512",
+      "sizes": "512x379",
       "type": "image/png"
     }
   ]
