@@ -1,8 +1,8 @@
-const CACHE_NAME = 'delirium-v9';
+const CACHE_NAME = 'delirium-v10';
 const urlsToCache = [
   'index.html',
   'style.css',
-  'imgs/delirium.png',
+  'imgs/logo_libelula.png',
   'imgs/lirio_do_vale.png',
   'imgs/daisy.png',
   'imgs/beladona.png',
@@ -10,8 +10,9 @@ const urlsToCache = [
   'imgs/dalia.png',
   'imgs/marigold.png',
   'imgs/violet.png',
-  'imgs/pixel_p.png',
-  'imgs/pixel_m.png'
+  'imgs/icon_libelula_p.png',
+  'imgs/icon_libelula_m.png',
+  'imgs/icon_libelula.png'
 ];
 
 // Instala e guarda no cache
